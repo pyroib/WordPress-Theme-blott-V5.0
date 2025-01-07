@@ -1,0 +1,91 @@
+
+#preloader .table{
+  height: 100%;
+  display: table;
+  z-index:1000;
+}
+
+
+#preloader .table-cell {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+.wrapper {
+  vertical-align: middle;
+}
+
+#depreload {
+  position: fixed;
+  text-align: center;
+  z-index: 1000;
+
+}
+
+#depreload .line {
+  opacity: 0;
+  margin:-10px;
+  width: 90vw;
+  height: 90vw;
+  max-width: 600px;
+  max-height: 600px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+#depreload .circle {
+  width: 87vw;
+  height: 87vw;
+  max-width: 585px;
+  max-height: 585px;
+  min-width: 180px;
+  min-height: 180px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-radius: 50%;
+  box-shadow: 0 0 1px 0px rgb(255,255,255);
+  margin: 0 auto;
+  position: relative;
+}
+
+
+#depreload .perc {
+  color: #fff;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#depreload .loading {
+  color: #fff;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-top: 110px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+#depreload .perc, #depreload .loading {
+  position: absolute;
+  width: 100%;
+}
+
+#depreload .logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 139px;
+  height: 139px;
+
+  margin-left: -68px;
+  margin-top: -70px;
+
+  opacity: 0;
+}

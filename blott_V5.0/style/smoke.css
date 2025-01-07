@@ -1,0 +1,27 @@
+#smoke-container {
+  height: 600px;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 20%;
+}
+
+#smoke1 {
+  background: url(/wp-content/themes/blott_V5.0/img/smoke1.png) 0 50% repeat-x;
+}
+
+#smoke2 {
+  background: url(/wp-content/themes/blott_V5.0/img/smoke2.png) 0 50% repeat-x;
+}
+
+#smoke1,
+#smoke2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+/*# sourceMappingURL=smoke.css.map */
